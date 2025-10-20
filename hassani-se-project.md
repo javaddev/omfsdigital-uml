@@ -57,7 +57,6 @@ a4["`
 `"]
 classDef actor fill:#f9f,stroke:#333,stroke-width:4px;
 classDef ellipse ry:30px,rx:50px
-class a1,a4 actor 
 ```
 
 
@@ -124,7 +123,6 @@ a5["`
 `"]
 classDef actor fill:#f9f,stroke:#333,stroke-width:4px;
 classDef ellipse ry:30px,rx:50px
-class a1,a5 actor 
 ```
 #### The remaining parts
 
@@ -196,7 +194,6 @@ a4["`
 `"]
 classDef actor fill:#f9f,stroke:#333,stroke-width:4px;
 classDef ellipse ry:30px,rx:50px
-class a1,a4 actor 
 ```
 ### Administer Side
 ```mermaid 
@@ -290,7 +287,6 @@ a3["`
 
 classDef actor fill:#f9f,stroke:#333,stroke-width:4px;
 classDef ellipse ry:30px,rx:50px
-class a1 actor 
 ```
 
 ## Class Diagrams
@@ -400,80 +396,90 @@ classDiagram
 
 ```
 ## Interface Model
-- Guideline
+Guideline
 ---
 ![](images/guideline.png)
-- Contact with Doctor
+
+Contact with Doctor
 ---
 ![](images/contactus.png)
-- Register/Login
+
+Register/Login
 ---
 ![](images/login.png)
-- Modify profile info
+
+Modify profile info
 ---
 ![](images/profile.png)
-- Logout
+
+Logout
 ---
 ![](images/logout.png)
 
-- Transactions management/ Search over transactions
+
+Transactions management/ Search over transactions
 ---
 ![](images/tr-m.png)
 
-- List of services/details
+
+List of services/details
 ---
 ![](images/services-m.png)
 
-- Modify Service
+Modify Service
 ---
 ![](images/services-d3.png)
 
-- Sending e-mail
+Sending e-mail
 ---
 ![](images/otp-mail.png)
 
 ### Users 
-- Users list / Search
+Users list / Search
 ---
 ![](images/users-m.png)
-- View user details / Determine user permission 
+
+View user details / Determine user permission 
 ---
 ![](images/users-d.png)
 
 ### Orders
-- Orders management / Search
+Orders management / Search
 ---
 ![](images/orders-m.png)
 
-- Describe Services in insert usercase
+Describe Services in insert usercase
 ---
 ![](images/services-d.png)
 ![](images/services-d2.png)
 
-- Insert order
+Insert order
 ---
 ![](images/orders-n.png)
 
 
-- View order detail
+View order detail
 ---
 ![](images/orders-v.png)
 
-- Modify/Remove/Pay the fee/Determine order fee
+Modify/Remove/Pay the fee/Determine order fee
 ---
 ![](images/orders-d.png)
 
 ### Apointments
-- Appointment  management / Search
+Appointment  management / Search
 ---
 ![](images/app-m.png)
-- Insert
+
+Insert
 ---
 ![](images/app-n.png)
-- View appointment detail / Cancel / Pay the fee / Determine appointment fee
+
+View appointment detail / Cancel / Pay the fee / Determine appointment fee
 ---
 ![](images/app-d.png)
-- Confirmation Alert
+
+Confirmation Alert
 ---
 ![](images/app-c.png)
 
